@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dream
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    url: jdbc:mysql://106.15.199.3:3306/plansun
+    username: root
+    password: Lili520
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: pro.xiaoyang.dream
