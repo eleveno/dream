@@ -14,4 +14,7 @@ public class UserService {
         return userMapper.selectById(id);
     }
 
+    public int save(User user){
+       return userMapper.save(user);
+    }
 }

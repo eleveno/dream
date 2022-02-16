@@ -8,5 +8,6 @@ public interface UserMapper {
 
     User selectById(int id);
 
+    int save(User user);
 
 }

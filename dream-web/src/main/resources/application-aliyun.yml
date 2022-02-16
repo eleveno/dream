@@ -12,4 +12,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
-  type-aliases-package: pro.xiaoyang.dream
+  type-aliases-package: pro.xiaoyang.dream.base
