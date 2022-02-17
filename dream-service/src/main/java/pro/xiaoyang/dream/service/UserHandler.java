@@ -6,7 +6,7 @@ import pro.xiaoyang.dream.base.User;
 
 @RestController
 @RequestMapping("/user")
-public class UserController {
+public class UserHandler {
 
     @Autowired
     private UserService userService;
